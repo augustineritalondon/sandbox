@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.pe-logo{
+  width: 25%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.card-card{
+  background: #f6f3f9;
+  border-radius: 20px;
+  padding: 20px;
+  color: #60697b;
+  display: flex;
+  align-items: center;
+}
+
+
+.card-card h3{
+  color: #60697b;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-card p{
+  font-size: 16px;
+  margin: 0;
+}
+
+.pricing-button{
+  border: 2px solid #747ed1;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.bg-purple1{
+  background-color: rgba(var(--bs-gray-rgb), var(--bs-bg-opacity)) !important;;
+}
+
+.bg-overlay1 {
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(30, 34, 40, 0.758);
 }
